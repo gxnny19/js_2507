@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/index_541.css">
+</head>
+<body>
+    <h1 class="title">구구단</h1>
+    <div class="container">
+        <script>
+            for (let i = 2; i <= 9; i++) {
+                document.writeln(`<div class="times">`);
+                document.writeln(`<h3>${i}단</h3>`);
+                for (let j = 1; j <= 9; j++) {
+                    document.writeln(`${i} X ${j} = ${i * j} <br>`);
+                }
+                document.writeln(`</div>`);
+            }
+        </script>
+    </div>
+</body>
+</html>
